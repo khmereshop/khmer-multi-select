@@ -1,0 +1,22 @@
+{
+  "name": "khmer-multi-select",
+  "version": "1.0.0",
+  "description": "Multi-select web component by Khmer.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khmereshop/khmer-multi-select.git"
+  },
+  "keywords": [
+    "multi-select"
+  ],
+  "author": "Sam San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khmereshop/khmer-multi-select/issues"
+  },
+  "homepage": "https://github.com/khmereshop/khmer-multi-select#readme"
+}
