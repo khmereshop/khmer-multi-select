@@ -1,5 +1,12 @@
-function khmerMultiSelect(str) {
-  console.log(str);
+
+class khmerMultiSelect extends HTMLElement {
+
+    constructor() {
+      super();
+      const title = this.getAttribute('title');
+      console.log('The title is ', title);
+      this.innerHTML = title;
+    }
 }
 
-module.exports=khmerMultiSelect;
+window.customElements.define('khmer-multi-select', khmerMultiSelect);
